@@ -5,7 +5,7 @@ metadata:
   annotations:
     link.argocd.argoproj.io/external-link: https://google.com
 spec:
-  replicas: 3
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
