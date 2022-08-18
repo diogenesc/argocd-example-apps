@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui-mid
   annotations:
-    link.argocd.argoproj.io/external-link: https://google.com
+    link.argocd.argoproj.io/external-link: https://uol.com.br
 spec:
   replicas: 1
   revisionHistoryLimit: 3
